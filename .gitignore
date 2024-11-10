@@ -32,4 +32,5 @@ bin/
 /target/
 /docs/
 /src/main/java/org/example/index
-/*.iml
+*.iml
+/dependency-reduced-pom.xml
