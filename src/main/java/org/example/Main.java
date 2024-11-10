@@ -52,9 +52,7 @@ public class Main {
         Path indexPath = Paths.get("src/main/java/org/example/index");
 
         if (Files.exists(indexPath)) {
-            Files.walk(indexPath)
-                    .map(Path::toFile)
-                    .forEach(File::delete);
+            Files.walk(indexPath).map(Path::toFile).forEach(File::delete);
         }
         Files.createDirectories(indexPath);
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
