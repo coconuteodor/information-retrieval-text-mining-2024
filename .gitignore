@@ -32,3 +32,4 @@ bin/
 /target/
 /docs/
 /src/main/java/org/example/index
+/*.iml
